@@ -1,0 +1,92 @@
+body {    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 220vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    background-color: #f8f3f3;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(255, 208, 0) 6px;
+}
+
+.name {
+    padding: 10px;
+    margin: 30px;
+    font-size: 24px;
+}
+
+.info {
+    padding: 10px;
+    margin: 30px;
+}
+
+.personal {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: baseline;
+}
+
+.summary {
+    font-size: 20px;
+    padding: 10px;
+    width: 70%;
+}
+
+.title {
+    margin: 10px;
+    font-size: 25px;
+    width: 30%;
+}
+
+.work {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: baseline;
+}
+
+h3 {
+    margin: 0;
+}
+
+.skills {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: baseline;
+}
+
+.key {
+    display: flex;
+    font-size: 20px;
+    width: 70%;
+    gap: 0px 20px;
+    padding: 10px;
+}
+
+.education {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    align-items: baseline;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    width: 100%;
+}
